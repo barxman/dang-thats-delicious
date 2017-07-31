@@ -32,7 +32,7 @@ exports.send = async (options) => {
 
     const html = generateHTML(options.filename, options); 
     const mailOptions = {
-        from: 'Garry barclay <garry.barclay@gmail.com>',
+        from: 'Garry <info@goalpapa.com>',
         to: options.user.email,
         subject: options.subject,
         html,
